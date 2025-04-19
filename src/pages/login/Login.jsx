@@ -8,13 +8,15 @@ export default function Login() {
 
   return (
     <div className={styles["login-container"]}>
-      <div className={styles["login-card"]}>
-        <h1 className={styles["login-title"]}>Login Here</h1>
+      <div className={styles["login-banner"]} />
+      <div className={styles["login-wrapper"]}>
+        <h1 className={styles["login-title"]}>My Login Page</h1>
+        <p className={styles["login-subtitle"]}>This is my description </p>
         <form onSubmit={handleSubmit} className={styles["login-form"]}>
           <InputGroup>
-            <label>Email</label>
+            <label style={{ color: "black" }}>Email</label>
             <input
-              placeholder="Fill your email..."
+              placeholder="Fill your email address..."
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -22,9 +24,9 @@ export default function Login() {
             />
           </InputGroup>
           <InputGroup>
-            <label>Password</label>
+            <label style={{ color: "black" }}>Password</label>
             <input
-              placeholder="Fill your password..."
+              placeholder="Fill your password here..."
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -32,7 +34,7 @@ export default function Login() {
             />
           </InputGroup>
           <button type="submit" className={styles["login-button"]}>
-            Login
+            Click Here
           </button>
         </form>
       </div>
