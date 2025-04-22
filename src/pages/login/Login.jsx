@@ -8,9 +8,8 @@ export default function Login() {
 
   return (
     <div className={styles["login-container"]}>
-      <div className={styles["login-banner"]} />
       <div className={styles["login-wrapper"]}>
-        <h1 className={styles["login-title"]}>My Login Page</h1>
+        <h1 className={styles["login-title"]}>My Login Form</h1>
         <p className={styles["login-subtitle"]}>This is my description </p>
         <form onSubmit={handleSubmit} className={styles["login-form"]}>
           <InputGroup>
@@ -38,6 +37,7 @@ export default function Login() {
           </button>
         </form>
       </div>
+      <div className={styles["login-banner"]} />
     </div>
   );
 }
