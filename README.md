@@ -1,8 +1,6 @@
 <img src="https://github.com/darren-ctj/plugist-assets/blob/main/Plugist%20-%20Circle%20Logo.png?raw=true" width="140">
 
-# `@plugist/react` Demo App
-
-Welcome to the demo app showcasing [`@plugist/react`](https://www.npmjs.com/package/@plugist/react) — a React productivity tool that lets you **click on an element at your React app, instantly locate its code, and edit it directly in a side panel**, with changes reflected at your local source code.
+# `@plugist/react` Playground 
 
 This simple app includes a **Login Page** to demonstrate how you can integrate and experiment with `@plugist/react` in a real project.
 
@@ -20,8 +18,8 @@ Follow these steps to run the project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/darren-ctj/plugist-demo.git
-cd plugist-demo
+git clone https://github.com/darren-ctj/plugist-playground.git
+cd plugist-playground
 ```
 
 ### 2. Install dependencies
@@ -47,6 +45,10 @@ npm run dev
 Go to [http://localhost:5173](http://localhost:5173)  
 
 You should see a simple login page powered by `@plugist/react`.
+
+## Feedback & Issues
+
+If you encounter any issues or have suggestions, feel free to open an issue. 👉 [Submit an issue here](https://github.com/darren-ctj/plugist-playground/issues)
 
 
 ## Contact Me
